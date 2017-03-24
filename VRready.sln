@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRready", "VRready.csproj", "{98EA69D0-D2C7-B941-D83D-9A973E286194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRready.Editor", "VRready.Editor.csproj", "{F5779FA6-9EBB-7581-6570-4F6C6DBF2526}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98EA69D0-D2C7-B941-D83D-9A973E286194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EA69D0-D2C7-B941-D83D-9A973E286194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EA69D0-D2C7-B941-D83D-9A973E286194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EA69D0-D2C7-B941-D83D-9A973E286194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5779FA6-9EBB-7581-6570-4F6C6DBF2526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5779FA6-9EBB-7581-6570-4F6C6DBF2526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5779FA6-9EBB-7581-6570-4F6C6DBF2526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5779FA6-9EBB-7581-6570-4F6C6DBF2526}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

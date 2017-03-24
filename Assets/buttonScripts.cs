@@ -7,10 +7,14 @@ using UnityEngine.SceneManagement;
 public class buttonScripts : MonoBehaviour {
 
     public Button myButton;
- 
-     void Awake()
+
+    public void Start()
+    {
+        myButton = GetComponent<Button>();
+    }
+    void Awake()
      {
-         myButton = GetComponent<Button>(); // <-- you get access to the button component here
+          // <-- you get access to the button component here
  
          myButton.onClick.AddListener( () => {myFunctionForOnClickEvent();} );  // <-- you assign a method to the button OnClick event here
      }

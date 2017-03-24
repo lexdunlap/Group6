@@ -5,10 +5,10 @@ using UnityEngine;
 public class BuildingManager : MonoBehaviour {
 
     public GameObject[] buildings;
-    private BuildingPlacement buildingPlacement;
+    private assetMenu buildingPlacement;
 	// Use this for initialization
 	void Start () {
-        buildingPlacement = GetComponent<BuildingPlacement>();
+        buildingPlacement = GetComponent<assetMenu>();
 	}
 	
 	// Update is called once per frame
