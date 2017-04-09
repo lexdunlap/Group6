@@ -10,10 +10,12 @@ public class PlaceableBuilding : MonoBehaviour
 
     private void OnGUI()
     {
+		/*
         if (isSelected)
         {
             GUI.Button(new Rect(100, 200, 100, 30), name);
         }
+        */
     }
     private void OnTriggerEnter(Collider c)
     {

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 70a8507aea4e6964f97260551e17d723
-timeCreated: 1490133403
+guid: 0481f37f5cdc2994d842c84aad61abe9
+timeCreated: 1489959790
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -98,7 +98,7 @@ ModelImporter:
     4300000: pCube21
     4300002: pSphere1
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
