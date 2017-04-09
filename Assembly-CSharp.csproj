@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{75D63C02-921F-9F65-8730-7BBC39D2E8D9}</ProjectGuid>
+    <ProjectGuid>{807A988D-933C-F828-4290-11944B09764E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -39,32 +39,29 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/UnityBeta56/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/UnityBeta56/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCamera.cs" />
-     <Compile Include="Assets\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCameraUI.cs" />
-     <Compile Include="Assets\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
-     <Compile Include="Assets\GE Common Assets\Scripts\GE_UIResponder.cs" />
-     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo00.cs" />
-     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo01.cs" />
-     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo02.cs" />
-     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo03.cs" />
-     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo04.cs" />
-     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo05.cs" />
-     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo06.cs" />
-     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo07.cs" />
-     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo08.cs" />
-     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
-     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
-     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
+     <Compile Include="Assets\Game\NewScripts\BuildObject.cs" />
+     <Compile Include="Assets\Game\NewScripts\BuildingSystem.cs" />
+     <Compile Include="Assets\Game\NewScripts\ObjectCircularMenu.cs" />
+     <Compile Include="Assets\Game\NewScripts\RadialMenu.cs" />
+     <Compile Include="Assets\Game\NewScripts\RadialMenuSpawner.cs" />
+     <Compile Include="Assets\Game\NewScripts\interactable.cs" />
+     <Compile Include="Assets\Game\NewScripts\radialButton.cs" />
+     <Compile Include="Assets\Game\NewScripts\terrainInfinite.cs" />
+     <Compile Include="Assets\Game\NewScripts\terrainScript.cs" />
      <Compile Include="Assets\Game\Scripts\BuildingManager.cs" />
      <Compile Include="Assets\Game\Scripts\BuildingPlacement.cs" />
      <Compile Include="Assets\Game\Scripts\PlaceableBuilding.cs" />
+     <Compile Include="Assets\Game\Scripts\TerrainDeformer.cs" />
+     <Compile Include="Assets\Game\Scripts\TerrainDeformer1.cs" />
+     <Compile Include="Assets\Game\Scripts\assetMenu.cs" />
+     <Compile Include="Assets\Game\Scripts\moveMenu.cs" />
      <Compile Include="Assets\Game\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Game\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\Game\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -109,46 +106,112 @@
      <Compile Include="Assets\Game\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Game\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Game\Standard Assets\Utility\WaypointProgressTracker.cs" />
-     <Compile Include="Assets\Water Flow FREE\Scripts\WaterFlowFREEDemo.cs" />
+     <Compile Include="Assets\OSVRUnity\Sample\Demo\Scripts\Managers\ColorManager.cs" />
+     <Compile Include="Assets\OSVRUnity\Sample\Demo\Scripts\Objects\ColorChanger.cs" />
+     <Compile Include="Assets\OSVRUnity\Sample\Demo\Scripts\QuitOnEscape.cs" />
+     <Compile Include="Assets\OSVRUnity\Sample\Scripts\HandleButtonPress.cs" />
+     <Compile Include="Assets\OSVRUnity\Sample\Scripts\SampleAnalog.cs" />
+     <Compile Include="Assets\OSVRUnity\Sample\Scripts\SampleButton.cs" />
+     <Compile Include="Assets\OSVRUnity\Sample\Scripts\SampleEyeTracker2D.cs" />
+     <Compile Include="Assets\OSVRUnity\Sample\Scripts\SampleEyeTracker3D.cs" />
+     <Compile Include="Assets\OSVRUnity\Sample\Scripts\SampleImaging.cs" />
+     <Compile Include="Assets\OSVRUnity\Sample\Scripts\SampleLocomotionWalk.cs" />
+     <Compile Include="Assets\OSVRUnity\Sample\Scripts\SetRoomRotationUsingHead.cs" />
+     <Compile Include="Assets\OSVRUnity\src\AnalogInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\ButtonInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\ClientKit.cs" />
+     <Compile Include="Assets\OSVRUnity\src\DLLSearchPathFixer.cs" />
+     <Compile Include="Assets\OSVRUnity\src\DirectionInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\DisplayController.cs" />
+     <Compile Include="Assets\OSVRUnity\src\EyeTracker2DInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\EyeTracker3DInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\EyeTrackerBlinkInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\GetParent.cs" />
+     <Compile Include="Assets\OSVRUnity\src\IRequiresInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\ImagingInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\InterfaceAdapters.cs" />
+     <Compile Include="Assets\OSVRUnity\src\InterfaceBase.cs" />
+     <Compile Include="Assets\OSVRUnity\src\InterfaceCallbacks.cs" />
+     <Compile Include="Assets\OSVRUnity\src\InterfaceGameObject.cs" />
+     <Compile Include="Assets\OSVRUnity\src\InterfaceGameObjectBase.cs" />
+     <Compile Include="Assets\OSVRUnity\src\K1RadialDistortion.cs" />
+     <Compile Include="Assets\OSVRUnity\src\Location2DInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\Math.cs" />
+     <Compile Include="Assets\OSVRUnity\src\NaviPositionInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\NaviVelocityInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\OrientationInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\OsvrCharacterMotor.cs" />
+     <Compile Include="Assets\OSVRUnity\src\OsvrInputController.cs" />
+     <Compile Include="Assets\OSVRUnity\src\OsvrMouseLook.cs" />
+     <Compile Include="Assets\OSVRUnity\src\OsvrRenderManager.cs" />
+     <Compile Include="Assets\OSVRUnity\src\PoseInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\PositionInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\RequiresAnalogInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\RequiresButtonInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\RequiresDirectionInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\RequiresEyeTracker2DInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\RequiresEyeTracker3DInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\RequiresEyeTrackerBlinkInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\RequiresImagingInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\RequiresNaviPositionInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\RequiresNaviVelocityInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\RequiresOrientationInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\RequiresPoseInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\RequiresPositionInterface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\VREye.cs" />
+     <Compile Include="Assets\OSVRUnity\src\VRSurface.cs" />
+     <Compile Include="Assets\OSVRUnity\src\VRViewer.cs" />
+     <Compile Include="Assets\alwaysInScreen.cs" />
      <Compile Include="Assets\buttonScripts.cs" />
      <Compile Include="Assets\centerPanel.cs" />
-     <Compile Include="Assets\pauseMenu.cs" />
-     <Compile Include="Assets\startButton.cs" />
      <None Include="Assets\Main Menu\mClouds\Compiled-Unlit-Normal-nofog.shader" />
-     <None Include="Assets\Objects\Materials\Brick Substance\Documentation\Help.txt" />
-     <None Include="Assets\Water Flow FREE\Shaders\Water Flow FREE Simple.shader" />
-     <None Include="Assets\Water Flow FREE\Readme.txt" />
-     <None Include="Assets\Objects\Materials\Brick Substance\Documentation\Eula.txt" />
+     <None Include="Assets\Plugins\x86_64\rendermanager-ver.txt" />
+     <None Include="Assets\OSVRUnity\Resources\OsvrDistortion.shader" />
+     <None Include="Assets\Plugins\Android\libs\armeabi-v7a\README.txt" />
+     <None Include="Assets\Plugins\x86\osvrUnity-ver.txt" />
+     <None Include="Assets\Plugins\x86\osvr-ver.txt" />
+     <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\UAdditiveTintScrollY.shader" />
+     <None Include="Assets\Baker House\Readme.txt" />
+     <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\DepthMask.shader" />
+     <None Include="Assets\Plugins\x86\rendermanager-ver.txt" />
+     <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\ULightmap.shader" />
+     <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\UAdditiveTintScroll.shader" />
+     <None Include="Assets\Plugins\x86\osvrUnityRenderingPlugin-ver.txt" />
      <None Include="Assets\Game\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\GUI Animator\GUI Animator FREE\Readme.txt" />
+     <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\UTextureFadeQueue.shader" />
+     <None Include="Assets\Plugins\x86_64\osvr-ver.txt" />
+     <None Include="Assets\Plugins\x86_64\osvrUnity-ver.txt" />
+     <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\UAdditiveTintQueue.shader" />
      <None Include="Assets\Game\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\GE Common Assets\Readme.txt" />
-     <None Include="Assets\GUI Animator\GUI Animator FREE\!How to.txt" />
      <None Include="Assets\Game\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\UTextureFadeFogless.shader" />
+     <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\UAdditiveTint.shader" />
+     <None Include="Assets\Plugins\x86_64\osvrUnityRenderingPlugin-ver.txt" />
      <None Include="Assets\Game\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\UTextureAlphaTint.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/UnityBeta56/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/UnityBeta56/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.PlaymodeTestsRunner">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/UnityBeta56/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/UnityBeta56/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Program Files/UnityBeta56/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ <HintPath>C:/Program Files/UnityBeta56/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ <HintPath>C:/Program Files/UnityBeta56/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
- <Reference Include="GETween">
- <HintPath>C:/Users/Kelly Colb/Documents/GitHub/LSGroup6/Assets/GUI Animator/Common/Plugins/GETween.dll</HintPath>
- </Reference>
- <Reference Include="GUIAnimatorFREE">
- <HintPath>C:/Users/Kelly Colb/Documents/GitHub/LSGroup6/Assets/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
+ <Reference Include="OSVR.ClientKit">
+ <HintPath>C:/Users/krm1929/Desktop/Group6-Ryan - Copy/Assets/Plugins/OSVR.ClientKit.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
