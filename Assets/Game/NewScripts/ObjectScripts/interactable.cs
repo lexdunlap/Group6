@@ -15,7 +15,7 @@ using OSVR.Unity;
         }
 
         [SerializeField]
-        public Action[] options;
+        public Action[] options = new Action[3];
 
         void Start()
         {
