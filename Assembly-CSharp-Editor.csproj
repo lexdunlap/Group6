@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F365664F-5A82-DF17-0B5A-2DB83500F8E1}</ProjectGuid>
+    <ProjectGuid>{993B35FE-D094-5336-4C69-B38258C2D6FD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -51,14 +51,16 @@
      <None Include="Assets\Main Menu\mClouds\Compiled-Unlit-Normal-nofog.shader" />
      <None Include="Assets\Plugins\x86_64\rendermanager-ver.txt" />
      <None Include="Assets\OSVRUnity\Resources\OsvrDistortion.shader" />
+     <None Include="Assets\laxer tree pkg\README.txt" />
      <None Include="Assets\Plugins\Android\libs\armeabi-v7a\README.txt" />
      <None Include="Assets\Plugins\x86\osvrUnity-ver.txt" />
      <None Include="Assets\Plugins\x86\osvr-ver.txt" />
+     <None Include="Assets\Objects\Materials\Brick Substance\Documentation\Help.txt" />
      <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\UAdditiveTintScrollY.shader" />
-     <None Include="Assets\Baker House\Readme.txt" />
      <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\DepthMask.shader" />
      <None Include="Assets\Plugins\x86\rendermanager-ver.txt" />
      <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\ULightmap.shader" />
+     <None Include="Assets\Objects\Materials\Brick Substance\Documentation\Eula.txt" />
      <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\UAdditiveTintScroll.shader" />
      <None Include="Assets\Plugins\x86\osvrUnityRenderingPlugin-ver.txt" />
      <None Include="Assets\Game\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
@@ -131,12 +133,12 @@
  <HintPath>C:/Program Files/UnityBeta56/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="OSVR.ClientKit">
- <HintPath>C:/Users/krm1929/Desktop/Group6-Ryan - Copy/Assets/Plugins/OSVR.ClientKit.dll</HintPath>
+ <HintPath>C:/Users/krm1929/Desktop/VR6update/Assets/Plugins/OSVR.ClientKit.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{807A988D-933C-F828-4290-11944B09764E}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{476A679A-A68C-00EF-0165-4507227D54DA}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

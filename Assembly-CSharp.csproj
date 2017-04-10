@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{807A988D-933C-F828-4290-11944B09764E}</ProjectGuid>
+    <ProjectGuid>{476A679A-A68C-00EF-0165-4507227D54DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,12 +49,10 @@
      <Compile Include="Assets\Game\NewScripts\BuildObject.cs" />
      <Compile Include="Assets\Game\NewScripts\BuildingSystem.cs" />
      <Compile Include="Assets\Game\NewScripts\ObjectCircularMenu.cs" />
-     <Compile Include="Assets\Game\NewScripts\RadialMenu.cs" />
-     <Compile Include="Assets\Game\NewScripts\RadialMenuSpawner.cs" />
-     <Compile Include="Assets\Game\NewScripts\interactable.cs" />
-     <Compile Include="Assets\Game\NewScripts\radialButton.cs" />
-     <Compile Include="Assets\Game\NewScripts\terrainInfinite.cs" />
-     <Compile Include="Assets\Game\NewScripts\terrainScript.cs" />
+     <Compile Include="Assets\Game\NewScripts\ObjectScripts\RadialMenu.cs" />
+     <Compile Include="Assets\Game\NewScripts\ObjectScripts\RadialMenuSpawner.cs" />
+     <Compile Include="Assets\Game\NewScripts\ObjectScripts\interactable.cs" />
+     <Compile Include="Assets\Game\NewScripts\ObjectScripts\radialButton.cs" />
      <Compile Include="Assets\Game\Scripts\BuildingManager.cs" />
      <Compile Include="Assets\Game\Scripts\BuildingPlacement.cs" />
      <Compile Include="Assets\Game\Scripts\PlaceableBuilding.cs" />
@@ -62,6 +60,8 @@
      <Compile Include="Assets\Game\Scripts\TerrainDeformer1.cs" />
      <Compile Include="Assets\Game\Scripts\assetMenu.cs" />
      <Compile Include="Assets\Game\Scripts\moveMenu.cs" />
+     <Compile Include="Assets\Game\Scripts\terrainInfinite.cs" />
+     <Compile Include="Assets\Game\Scripts\terrainScript.cs" />
      <Compile Include="Assets\Game\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Game\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\Game\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -161,20 +161,19 @@
      <Compile Include="Assets\OSVRUnity\src\VREye.cs" />
      <Compile Include="Assets\OSVRUnity\src\VRSurface.cs" />
      <Compile Include="Assets\OSVRUnity\src\VRViewer.cs" />
-     <Compile Include="Assets\alwaysInScreen.cs" />
-     <Compile Include="Assets\buttonScripts.cs" />
-     <Compile Include="Assets\centerPanel.cs" />
      <None Include="Assets\Main Menu\mClouds\Compiled-Unlit-Normal-nofog.shader" />
      <None Include="Assets\Plugins\x86_64\rendermanager-ver.txt" />
      <None Include="Assets\OSVRUnity\Resources\OsvrDistortion.shader" />
+     <None Include="Assets\laxer tree pkg\README.txt" />
      <None Include="Assets\Plugins\Android\libs\armeabi-v7a\README.txt" />
      <None Include="Assets\Plugins\x86\osvrUnity-ver.txt" />
      <None Include="Assets\Plugins\x86\osvr-ver.txt" />
+     <None Include="Assets\Objects\Materials\Brick Substance\Documentation\Help.txt" />
      <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\UAdditiveTintScrollY.shader" />
-     <None Include="Assets\Baker House\Readme.txt" />
      <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\DepthMask.shader" />
      <None Include="Assets\Plugins\x86\rendermanager-ver.txt" />
      <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\ULightmap.shader" />
+     <None Include="Assets\Objects\Materials\Brick Substance\Documentation\Eula.txt" />
      <None Include="Assets\OSVRUnity\Sample\Demo\Shaders\UAdditiveTintScroll.shader" />
      <None Include="Assets\Plugins\x86\osvrUnityRenderingPlugin-ver.txt" />
      <None Include="Assets\Game\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
@@ -211,7 +210,7 @@
  <HintPath>C:/Program Files/UnityBeta56/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="OSVR.ClientKit">
- <HintPath>C:/Users/krm1929/Desktop/Group6-Ryan - Copy/Assets/Plugins/OSVR.ClientKit.dll</HintPath>
+ <HintPath>C:/Users/krm1929/Desktop/VR6update/Assets/Plugins/OSVR.ClientKit.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
